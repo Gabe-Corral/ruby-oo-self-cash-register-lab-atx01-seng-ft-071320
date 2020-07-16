@@ -21,7 +21,7 @@ class CashRegister
   end
   
   def items
-    add_item(title, price).select do |title|
+    add_item(title, price).select do |@title|
       @@array << @title
     end
     @@array
