@@ -21,7 +21,7 @@ class CashRegister
   end
   
   def items
-    @title.select do |i|
+    add_item.select do |i|
       @@array << i
     end
     @@array
