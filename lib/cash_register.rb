@@ -21,7 +21,7 @@ class CashRegister
   end
   
   def items
-    @@array << self.title
+    @@array << @title
     @@array
   end
 end
